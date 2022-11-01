@@ -3,9 +3,6 @@
 </script>
 
 <style>
-    article {
-        background-color: white;
-    }
 </style>
 
 <article>
