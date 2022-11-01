@@ -9,6 +9,10 @@
         display: grid;
         grid-template-columns: [input] 50% [rendered_formulars] 50%
     }
+
+    textarea {
+        resize: none;
+    }
 </style>
 
 <article>
