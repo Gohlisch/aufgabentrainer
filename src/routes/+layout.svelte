@@ -8,6 +8,13 @@
         min-width: 50%;
         padding: 0 1em;
     }
+
+    @media (max-width: 20cm) {
+        main{
+            max-width: 100%;
+            padding: 0;
+        }
+    }
 </style>
 
 <Header></Header>
