@@ -17,3 +17,10 @@ body > div {
 body * {
     max-width: 100%;
 }
+
+.chart {
+    background: white;
+    border-left: 1px dotted #555;
+    border-bottom: 1px dotted #555;
+    padding: 20px 20px 20px 0;
+}
