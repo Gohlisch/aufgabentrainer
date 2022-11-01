@@ -4,7 +4,7 @@
 
 <style>
     main {
-        max-width: 1000px;
+        max-width: 20cm;
         min-width: 50%;
         padding: 0 1em;
     }
@@ -14,3 +14,6 @@
 <main>
     <slot></slot>
 </main>
+<footer>
+
+</footer>

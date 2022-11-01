@@ -13,3 +13,7 @@ body > div {
     align-items: center;
     flex-direction: column;
 }
+
+body * {
+    max-width: 100%;
+}
