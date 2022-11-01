@@ -6,6 +6,7 @@
     main {
         max-width: 1000px;
         min-width: 50%;
+        padding: 0 1em;
     }
 </style>
 
