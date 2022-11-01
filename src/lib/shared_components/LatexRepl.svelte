@@ -1,5 +1,5 @@
 <script lang="ts">
-	import FormulaRenderer from "./FormulaRenderer.svelte";
+	import Formula from "./Formula.svelte";
 
 	export let formula: string = "";
 </script>
@@ -18,5 +18,5 @@
 
 <article>
     <textarea bind:value={formula}></textarea>
-    <FormulaRenderer formula={formula}></FormulaRenderer>
+    <Formula formula={formula}></Formula>
 </article>

@@ -1,5 +1,5 @@
 <script>
-    import FormulaRenderer from "../../../lib/shared_components/FormulaRenderer.svelte";
+    import Formula from "../../../lib/shared_components/Formula.svelte";
 </script>
 
 <h1>Größen und Einheiten</h1>
@@ -42,7 +42,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     <tbody>
     <tr>
         <td>
-            <FormulaRenderer formula="10^24"></FormulaRenderer>
+            <Formula formula="10^24"></Formula>
         </td>
         <td>
             Yotta
@@ -53,7 +53,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula="10^21"></FormulaRenderer>
+            <Formula formula="10^21"></Formula>
         </td>
         <td>
             Zetta
@@ -64,7 +64,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula="10^18"></FormulaRenderer>
+            <Formula formula="10^18"></Formula>
         </td>
         <td>
             Exa
@@ -76,7 +76,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
 
     <tr>
         <td>
-            <FormulaRenderer formula="10^15"></FormulaRenderer>
+            <Formula formula="10^15"></Formula>
         </td>
         <td>
             Peta
@@ -88,7 +88,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
 
     <tr>
         <td>
-            <FormulaRenderer formula="10^12"></FormulaRenderer>
+            <Formula formula="10^12"></Formula>
         </td>
         <td>
             Tera
@@ -100,7 +100,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
 
     <tr>
         <td>
-            <FormulaRenderer formula="10^9"></FormulaRenderer>
+            <Formula formula="10^9"></Formula>
         </td>
         <td>
             Giga
@@ -111,7 +111,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula="10^6"></FormulaRenderer>
+            <Formula formula="10^6"></Formula>
         </td>
         <td>
             Mega
@@ -122,7 +122,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula="10^3"></FormulaRenderer>
+            <Formula formula="10^3"></Formula>
         </td>
         <td>
             Kilo
@@ -133,7 +133,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula="10^2"></FormulaRenderer>
+            <Formula formula="10^2"></Formula>
         </td>
         <td>
             Hekto
@@ -144,7 +144,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula="10^1"></FormulaRenderer>
+            <Formula formula="10^1"></Formula>
         </td>
         <td>
             Deka
@@ -155,7 +155,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula="10^3"></FormulaRenderer>
+            <Formula formula="10^3"></Formula>
         </td>
         <td>
             Kilo
@@ -166,7 +166,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-1}"}></FormulaRenderer>
+            <Formula formula={"10^{-1}"}></Formula>
         </td>
         <td>
             Dezi
@@ -177,7 +177,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-2}"}></FormulaRenderer>
+            <Formula formula={"10^{-2}"}></Formula>
         </td>
         <td>
             Zenti
@@ -188,7 +188,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-3}"}></FormulaRenderer>
+            <Formula formula={"10^{-3}"}></Formula>
         </td>
         <td>
             Milli
@@ -199,7 +199,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-6}"}></FormulaRenderer>
+            <Formula formula={"10^{-6}"}></Formula>
         </td>
         <td>
             Mikro
@@ -210,7 +210,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-9}"}></FormulaRenderer>
+            <Formula formula={"10^{-9}"}></Formula>
         </td>
         <td>
             Nano
@@ -221,7 +221,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-12}"}></FormulaRenderer>
+            <Formula formula={"10^{-12}"}></Formula>
         </td>
         <td>
             Piko
@@ -232,7 +232,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-15}"}></FormulaRenderer>
+            <Formula formula={"10^{-15}"}></Formula>
         </td>
         <td>
             Femto
@@ -243,7 +243,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-18}"}></FormulaRenderer>
+            <Formula formula={"10^{-18}"}></Formula>
         </td>
         <td>
             Atto
@@ -255,7 +255,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tbody>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-21}"}></FormulaRenderer>
+            <Formula formula={"10^{-21}"}></Formula>
         </td>
         <td>
             Zepto
@@ -266,7 +266,7 @@ Unterscheidungsmerkmal zwischen gleichartigen physikalischen Größen ist ihr <e
     </tr>
     <tr>
         <td>
-            <FormulaRenderer formula={"10^{-24}"}></FormulaRenderer>
+            <Formula formula={"10^{-24}"}></Formula>
         </td>
         <td>
             Yokto
