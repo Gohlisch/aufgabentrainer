@@ -75,6 +75,36 @@ Geschwindigkeitsänderung und der zugehörigen Zeitspanne. Einheit <Formula form
 
 Die Momentanbeschleunigung ist der Grenzwert der Durschnittsbeschleunigung:
 <OverflowScrollBox>
-    <Formula formula={"a(t)=\\dot{s}(t)=\\lim_{t \\to 0}\\frac{t+\\Delta t-v(t)}{\\Delta t}=\\dot{v}(t)=\\ddot{s}(t)"}/>
+    <Formula formula={"a(t)=\\dot{s}(t)=\\lim_{t \\to 0}\\frac{v(t+\\Delta t)-v(t)}{\\Delta t}=\\dot{v}(t)=\\ddot{s}(t)"}/>
 </OverflowScrollBox>
+
+<h2>Drehbewegung</h2>
+
+<h3>Zurückgelegte Strecke bei einer Kreisbewegung</h3>
+<OverflowScrollBox>
+    <Formula formula={"\\vec{s}=\\left( \\begin{array}{c} x \\\\ y \\\\ \\end{array}\\right) = \\left( \\begin{array}{c} r\\cdot cos(\\varphi) \\\\  r\\cdot sin(\\varphi) \\\\ \\end{array}\\right)"}/>
+</OverflowScrollBox>
+
+<h3>Winkelgeschwindigkeit</h3>
+
+Die Winkelgeschwindigkeit <Formula formula={"\\omega"} /> ist ein in der Maßeinheit
+<Formula formula={"\\frac{rad}{s}"} /> angegeben. Sie ist unabhängig vom Radius <Formula formula={"r"} />.
+
+<OverflowScrollBox>
+    <Formula formula={"\\overline{\\omega}=\\frac{\\varphi _1-\\varphi _0}{t_1-t_0}=\\frac{\\Delta \\varphi}{\\Delta t}"}/>
+</OverflowScrollBox>
+
+<OverflowScrollBox>
+    <Formula formula={"\\omega=\\lim_{\\Delta t \\to 0}\\frac{\\Delta \\varphi}{\\Delta t}=\\dot{\\varphi}(t)"}/>
+</OverflowScrollBox>
+
+<h3>Winkelbeschleunigung</h3>
+
+Bei einer gleichförmigen Kreisbewegung bleibt die Winkelgeschwindigkeit unverändert.
+
+<OverflowScrollBox>
+    <Formula formula={"\\alpha(t)=\\lim_{\\Delta t \\to 0}\\frac{\\Delta \\omega}{\\Delta t}=\\ddot{\\varphi}(t)=\\dot{\\omega}(t)"}/>
+</OverflowScrollBox>
+
+
 
