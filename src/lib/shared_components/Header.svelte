@@ -40,5 +40,6 @@
         <a href="/physik">Physik</a>
         <a href="/analysis">Analysis</a>
         <a href="/lineare_algebra">Lineare Algebra</a>
+        <a href="/tex_repl">TeX Repl</a>
     </nav>
 </header>

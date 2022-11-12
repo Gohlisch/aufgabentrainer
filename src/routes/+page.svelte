@@ -1,5 +1,5 @@
 <script>
-    import LatexRepl from "../lib/shared_components/LatexRepl.svelte";
+    import LatexRepl from "../lib/shared_components/TexEditor.svelte";
 </script>
 <p>
     Mit dem Aufgabentrainer werden Dir Themen der Mathematik und Physik über verschiedene Medien näher gebracht.
